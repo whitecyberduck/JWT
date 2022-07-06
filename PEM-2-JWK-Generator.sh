@@ -1,5 +1,6 @@
 #!/bin/bash
 ## Requires openssl, nodejs, jq
+## original source shu-yusa/create_jwt.sh https://gist.github.com/shu-yusa/213901a5a0902de5ad3f62a61036f4ce
 
 # Checking if private key exists and, if not, generates a private-public pair
 if [ ! -f private.pem ]; then
