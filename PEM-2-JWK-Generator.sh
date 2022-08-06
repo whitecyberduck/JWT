@@ -9,6 +9,7 @@ if [ ! -f private.pem ]; then
 fi
 
 # Create JWK from public key
+mkdir node_modules
 if [ ! -d ./node_modules/pem-jwk ]; then
   npm install pem-jwk
 fi
